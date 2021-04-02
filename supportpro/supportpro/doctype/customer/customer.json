@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "autoname": "CUST-.YYYY.-#####",
  "creation": "2021-04-02 21:22:46.218605",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -27,12 +28,16 @@
   {
    "fieldname": "company_name",
    "fieldtype": "Data",
-   "label": "Company Name"
+   "in_list_view": 1,
+   "label": "Company Name",
+   "reqd": 1
   },
   {
    "fieldname": "industry_type",
    "fieldtype": "Select",
-   "label": "Industry Type"
+   "in_list_view": 1,
+   "label": "Industry Type",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_3",
@@ -41,8 +46,10 @@
   {
    "fieldname": "designation",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Designation",
-   "options": "Designation"
+   "options": "Designation",
+   "reqd": 1
   },
   {
    "fieldname": "occupation",
@@ -56,25 +63,30 @@
   {
    "fieldname": "address",
    "fieldtype": "Data",
-   "label": "Address"
+   "in_list_view": 1,
+   "label": "Address",
+   "reqd": 1
   },
   {
    "fieldname": "city",
    "fieldtype": "Link",
    "label": "City",
-   "options": "City"
+   "options": "City",
+   "reqd": 1
   },
   {
    "fieldname": "district",
    "fieldtype": "Link",
    "label": "District",
-   "options": "District"
+   "options": "District",
+   "reqd": 1
   },
   {
    "fieldname": "state",
    "fieldtype": "Link",
    "label": "State",
-   "options": "State"
+   "options": "State",
+   "reqd": 1
   },
   {
    "fieldname": "pincode",
@@ -88,12 +100,15 @@
   {
    "fieldname": "mobile_number",
    "fieldtype": "Data",
-   "label": "Mobile Number"
+   "label": "Mobile Number",
+   "reqd": 1
   },
   {
+   "default": "Email",
    "fieldname": "email_id",
    "fieldtype": "Data",
-   "label": "Email ID"
+   "label": "Email ID",
+   "reqd": 1
   },
   {
    "fieldname": "amended_from",
@@ -108,7 +123,8 @@
    "fieldname": "country",
    "fieldtype": "Link",
    "label": "Country",
-   "options": "Country"
+   "options": "Country",
+   "reqd": 1
   },
   {
    "fieldname": "alternate_mobile_no",
@@ -119,7 +135,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2021-04-02 21:23:42.554556",
+ "modified": "2021-04-02 22:08:14.671886",
  "modified_by": "Administrator",
  "module": "SupportPRO",
  "name": "Customer",

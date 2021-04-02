@@ -1,0 +1,127 @@
+{
+ "actions": [],
+ "autoname": "ISS-.YYYY.-#####",
+ "creation": "2021-04-02 21:49:40.158884",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "device_type",
+  "brand",
+  "issue_type",
+  "describe_the_problem",
+  "error_image",
+  "column_break_6",
+  "posting_date",
+  "make",
+  "model_number",
+  "serial_number",
+  "operating_system",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "device_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Device Type",
+   "options": "Device Type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "brand",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Brand",
+   "options": "Brand",
+   "reqd": 1
+  },
+  {
+   "fieldname": "issue_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Issue Type",
+   "options": "\nSystem No Display\nSystem Hang\nSystem Slow\nSystem Blue Screen\nSystem not Shutdown Properly\nLaptop Battery Backup Problem\nMonitor Blur/Colouring Probelm\nDesktop/Laptop not Switch On\nLaptop Heating Problem\nMail Send/Receive Problem\nInternet Connectivity Problem\nPrinter Problem\nWi-Fi Problem",
+   "reqd": 1
+  },
+  {
+   "fieldname": "describe_the_problem",
+   "fieldtype": "Small Text",
+   "label": "Describe the Problem"
+  },
+  {
+   "fieldname": "error_image",
+   "fieldtype": "Image",
+   "label": "Error Image"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "make",
+   "fieldtype": "Data",
+   "label": "Make"
+  },
+  {
+   "fieldname": "model_number",
+   "fieldtype": "Data",
+   "label": "Model Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "serial_number",
+   "fieldtype": "Data",
+   "label": "Serial Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "operating_system",
+   "fieldtype": "Data",
+   "label": "Operating System"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Issue",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "default": "Today",
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Posting Date",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2021-04-02 22:07:22.398244",
+ "modified_by": "Administrator",
+ "module": "SupportPRO",
+ "name": "Issue",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
