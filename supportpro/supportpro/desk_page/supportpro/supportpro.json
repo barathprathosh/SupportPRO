@@ -1,0 +1,41 @@
+{
+ "cards": [
+  {
+   "hidden": 0,
+   "label": "Customer",
+   "links": "[\n    {\n    \"label\": \"Customer\",\n    \"name\": \"Customer\",\n    \"type\": \"doctype\"\n    },\n    {\n    \"label\": \"Industry Type\",\n    \"name\": \"Industry Type\",\n    \"type\": \"doctype\"\n    },\n    {\n    \"label\": \"Designation\",\n    \"name\": \"Designation\",\n    \"type\": \"doctype\"\n    },\n    {\n    \"label\": \"City\",\n    \"name\": \"City\",\n    \"type\": \"doctype\"\n    },\n    {\n    \"label\": \"District\",\n    \"name\": \"District\",\n    \"type\": \"doctype\"\n    },\n    {\n    \"label\": \"State\",\n    \"name\": \"State\",\n    \"type\": \"doctype\"\n    }\n]"
+  },
+  {
+   "hidden": 0,
+   "label": "Issue",
+   "links": "[\n    {\n    \"label\": \"Issue\",\n    \"name\": \"Issue\",\n    \"type\": \"doctype\"\n    },\n    {\n    \"label\": \"Device Type\",\n    \"name\": \"Device Type\",\n    \"type\": \"doctype\"\n    }\n]"
+  },
+  {
+   "hidden": 0,
+   "label": "AMC",
+   "links": "[\n    {\n    \"label\": \"AMC Subscription\",\n    \"name\": \"AMC Subscription\",\n    \"type\": \"doctype\"\n    },\n    {\n    \"label\": \"Subscription Plan\",\n    \"name\": \"Subscription Plan\",\n    \"type\": \"doctype\"\n    }\n]"
+  }
+ ],
+ "category": "Modules",
+ "charts": [],
+ "creation": "2021-04-02 22:55:20.393784",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Desk Page",
+ "extends_another_page": 0,
+ "hide_custom": 0,
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "label": "SupportPRO",
+ "modified": "2021-04-02 22:59:23.708901",
+ "modified_by": "Administrator",
+ "module": "SupportPRO",
+ "name": "SupportPRO",
+ "onboarding": "Website",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 1,
+ "shortcuts": []
+}
